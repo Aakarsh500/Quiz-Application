@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tabs-container {
+  margin-bottom: 30px;
+}
+.individual-tabs {
+  margin-right: 30px;
+}
+.individual-question {
+  padding-bottom: 30px;
+}
+#question {
+  width: 100%;
+}
+.answers {
+  width: 50%;
+}
+.buttons {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+#submit-button {
+  margin-top: 30px;
+}
