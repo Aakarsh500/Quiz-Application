@@ -83,12 +83,15 @@ const MakeQuiz = () => {
                       >
                         Add Question
                       </button>
-                      <button
-                        onClick={() => remove(questionIndex)}
-                        className="buttons"
-                      >
-                        Remove Question
-                      </button>
+
+                      {questionIndex > 0 && (
+                        <button
+                          onClick={() => remove(questionIndex)}
+                          className="buttons"
+                        >
+                          Remove Question
+                        </button>
+                      )}
                     </div>
                   ));
                 }}

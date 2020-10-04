@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const Score = ({ score }) => {
+const Score = ({ score, resetButton }) => {
   return (
     <div className="report-card">
       <h1>Score</h1>
